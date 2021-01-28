@@ -241,7 +241,7 @@ void AmongUs::get_options(int argc, char *argv[]) {
                 << "it reads the coordinates and then completes a graph algorithm specified on the command line,\n"
                 << "the program can create a minimum spanning tree, a fast traveling salesperson solution,\n"
                 << "and an optimal traveling salesperson solution.\n"
-                << "Usage: \'./amongus\n\t[--help | -h]\n"
+                << "Usage: \'./mst-tsp\n\t[--help | -h]\n"
                 << "\t[--mode | -m < MST | FASTTSP | OPTTSP >]\n"
                 << "\t< <coordinates .txt file>\'" << std::endl;
             exit(0);
